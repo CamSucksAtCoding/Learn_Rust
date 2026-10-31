@@ -13,5 +13,5 @@ fn main() {
      *      IMPORTANT: When creating a const variable, I need to explicitly declare its datatype, EX: i32, i64, &str, etc
      *      const VARIABLE_NAME:datatype = value;
      */
-    println!("The name of the Emperor is {EMPEROR_OF_MANKIND} ")
+    println!("The name of the Emperor is {EMPEROR_OF_MANKIND} ");
 }
