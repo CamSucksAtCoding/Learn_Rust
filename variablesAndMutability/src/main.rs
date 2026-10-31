@@ -1,5 +1,3 @@
-use std::f32::consts;
-
 fn main() {
     /*
      * Declaring variables
@@ -22,15 +20,14 @@ fn main() {
      *      Best,
      *      {signature}");
      *
-     * Immutable variables
-     *   format:
      *
      */
 
-    /*Immutable variables*/
+    /*Immutable variable*/
     let titus_age = 400;
     println!("Titus is around {titus_age} years old");
 
+    /*Mutable variable*/
     let mut fav_chapter = "Blood Angels";
     println!(
         "My favorite chapter is the {fav_chapter}, but everyone looks like Horus for some reason"
