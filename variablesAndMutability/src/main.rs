@@ -1,3 +1,5 @@
+use std::f32::consts;
+
 fn main() {
     /*
      * Declaring variables
@@ -19,8 +21,13 @@ fn main() {
      *
      *      Best,
      *      {signature}");
+     *
+     * Immutable variables
+     *   format:
+     *
      */
 
+    /*Immutable variables*/
     let titus_age = 400;
     println!("Titus is around {titus_age} years old");
 
